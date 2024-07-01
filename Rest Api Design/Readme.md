@@ -149,11 +149,13 @@
     ![alt text](image-7.png)
 
 - **_TYPE OF ASYNC API_**
+
   ![alt text](image-9.png)
 
 ---
 
 **Problem 02**
+
 ![alt text](image-10.png)
 
 - **_Solutions_**
