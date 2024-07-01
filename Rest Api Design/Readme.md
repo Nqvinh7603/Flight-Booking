@@ -176,3 +176,5 @@
   - [REST API MAP](https://docs.google.com/spreadsheets/d/1e6O9mRXYjy2oMGDv8PepC5ASKy3qv8XnIucK4r8NUIo/edit?gid=0#gid=0)
 
 ## Practice
+
+![](image-12.png)
