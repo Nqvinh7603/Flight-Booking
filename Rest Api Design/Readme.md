@@ -145,6 +145,7 @@
   ***
 
   - **_CALLBACK_**
+
     ![alt text](image-7.png)
 
 - **_TYPE OF ASYNC API_**
