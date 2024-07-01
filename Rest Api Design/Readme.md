@@ -123,3 +123,53 @@
   > `POST/classes/<class_id>/students`
 
 ## Case Studies
+
+**Problem 01**
+![](image-4.png)
+
+- **_Issue_**
+
+  > `Client is blocked` : Nghĩa là khi client gửi request lên backend nó phải đợi các response trả về thì nó mới thực hiện các công việc tiếp theo
+  > `Request timeout` : Các file có thể sẽ xử lý lâu nên kết nối giữa client và backend nó có thể sẽ bị timeout
+  > `Out of memory` > `Heavy computation, Large result of the query`
+
+- **_Solutions_**
+
+  - **_POLLING ( ASYNC API)_**
+    ![alt text](image-5.png)
+    ![alt text](image-6.png)
+    ![alt text](image-8.png)
+
+    > 2 response trên là của 2 api đầu tiên
+
+  ***
+
+  - **_CALLBACK_**
+    ![alt text](image-7.png)
+
+- **_TYPE OF ASYNC API_**
+  ![alt text](image-9.png)
+
+---
+
+**Problem 02**
+![alt text](image-10.png)
+
+- **_Solutions_**
+
+  - Clients generates and adds an **Idempotency Key** to the request header.
+    > Idempotency có thể sinh ra ở server
+  - Server checks **Idempotency Key** with **Unique Contraint in DB**
+
+  ![](image-11.png)
+
+## Rest API Document
+
+**4.1 API Doc**
+
+- Resources:
+  - [REST API DOC](https://docs.google.com/document/d/1hrxXSy2te4D37CL_jrN68u6lS-Errnq7Stk9CeDXnTs/edit)
+    > Note: Ở phần description api sẽ description nó có nhiệm vụ gì và ai thực hiện api đó.
+  - [REST API MAP](https://docs.google.com/spreadsheets/d/1e6O9mRXYjy2oMGDv8PepC5ASKy3qv8XnIucK4r8NUIo/edit?gid=0#gid=0)
+
+## Practice
