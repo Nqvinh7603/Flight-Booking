@@ -281,7 +281,10 @@ SELECT * FROM users WHERE id + 0 = 10 - 1;
 ## HW
 
 [data setup](https://docs.google.com/document/d/1wEXF0DQ0kasxHJ57uAyf3B4vgk4WXw9P1RilH9yz-OE/edit#heading=h.1cyg1infzvkx)
-
+Exercise
 Theory statement
 SQL(s)
 Result, explain
+
+connect postgre in hw
+1 . cd postgresql-dataset-setup 2. docker ps 3. docker exec -it <container_name> bash 4. psql -U user
