@@ -1,4 +1,4 @@
-git # Document
+# Document
 
 - [Document](https://docs.google.com/spreadsheets/d/14ou1Nfx9vQ32pbDstA1iBF4SakHg3fxkAB-XwMLhIfs/edit?gid=0#gid=0)
 
